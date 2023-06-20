@@ -32,4 +32,4 @@ jobs:
 
   deploy:
     needs: [tests]
-    uses: ./github/workflows/node.js.yml
+    uses: ./.github/workflows/node.js.yml
